@@ -13,6 +13,14 @@
     <string name="hint_name">Jan Kowalski</string>
     <string name="setting_notifications">Powiadomienia</string>
     <string name="setting_dark">Tryb ciemny</string>
+    <string name="setting_sound">Dźwięk</string>
+    <string name="setting_autosave">Automatyczny zapis</string>
+    <string name="settings_summary_empty">Brak włączonych opcji</string>
+    <string name="action_reset">Przywróć domyślne</string>
+    <string name="reset_dialog_title">Przywróć domyślne</string>
+    <string name="reset_dialog_message">Czy na pewno chcesz przywrócić domyślne ustawienia?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
 
     <string name="about_text">Aplikacja szkoleniowa.\nTechnik programista, klasa 5.</string>
     <string name="cleared">Wyczyszczono</string>
