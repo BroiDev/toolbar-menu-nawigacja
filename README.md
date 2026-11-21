@@ -1,0 +1,2 @@
+1.1: W IDE wyskoczy mi błąd: Should use `app:showAsAction` with the appcompat library with `xmlns:app="http://schemas.android.com/apk/res-auto"`, jednak aplikacja poprawnie się zbuduje. Przycisk udostępnienia nie jest już osobno na pasku, zaś jest w środku menu przycisku opcji.
+1.2: Jest to właściwe, ponieważ zwracając false przestałyby działać wszystkie nieobsłużone przez nas przyciski w Toolbarze, np. domyślna strzałka wstecz. Nadpisujemy domyślną metodę obsługi przycisków Toolbara, w której obsługujemy swoje przyciski, a resztę zlecamy metodzie w klasie nadrzędnej.
