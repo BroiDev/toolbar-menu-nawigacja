@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             clearForm();
             return true;
         } else if (id == R.id.action_about) {
-            // We'll implement AboutActivity in step 4
+            startActivity(new Intent(this, AboutActivity.class));
             return true;
         }
 
